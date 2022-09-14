@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-bg-dark-color);
+    font-size: smaller;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-links{
+    border-left: 1px solid var(--highlight-color);
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.footer-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+

@@ -1,0 +1,43 @@
+.header-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-right: 30px;
+}
+.header-title p{
+    font-size: x-small;
+    color: var(--second-txt-color);
+    font-family: ''Fredoka One', sans-serif', sans-serif;
+}
+
+.header-menu{
+    margin: 7px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--main-bg-dark-color);
+    padding: 0 15px;
+}
+
+.header-menu a{
+    color: var(--main-txt-color);
+    font-size: smaller;
+    line-height: 3;
+    font-weight: 100;
+}
+.header-menu b{
+    color: var(--highlight-color);
+}
+
+.header-menu a:hover{
+    color: var(--highlight-color);
+    text-decoration: underline;
+    
+}
+
+.header-btns{
+    display: flex;
+    gap: 20px;
+}

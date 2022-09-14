@@ -1,0 +1,39 @@
+/* As hex codes */
+
+:root{
+    --main-superdark-color: #0c0b0c;
+    --main-bg-darker-color: #110f13;
+    --main-bg-dark-color: #1c1b20;  
+    --main-bg-color: #684646;
+    --second-bg-color: #2C2249;
+    --second-bg-color-var: #1f1b29;
+    --main-txt-color: #c2bfc9;
+    --second-txt-color: #727281;
+    --link-color: #fd7878;
+    --highlight-color: #811616;
+    --highlight-color-hover: #3d0f0f;
+}
+
+.color-primary-0 { color: #2C2249 }	/* Main Primary color */
+.color-primary-1 { color: #4E4668 }
+.color-primary-2 { color: #38314E }
+.color-primary-3 { color: #20163F }
+.color-primary-4 { color: #130A2F }
+
+.color-secondary-1-0 { color: #441C46 }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #613E62 }
+.color-secondary-1-2 { color: #492B4A }
+.color-secondary-1-3 { color: #3A103C }
+.color-secondary-1-4 { color: #2C052D }
+
+.color-secondary-2-0 { color: #1E3345 }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #405261 }
+.color-secondary-2-2 { color: #2C3C49 }
+.color-secondary-2-3 { color: #13293B }
+.color-secondary-2-4 { color: #081C2C }
+
+.color-complement-0 { color: #6B602B }	/* Main Complement color */
+.color-complement-1 { color: #978D5F }
+.color-complement-2 { color: #716941 }
+.color-complement-3 { color: #5C5019 }
+.color-complement-4 { color: #453A08 }
