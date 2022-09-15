@@ -1,6 +1,5 @@
 const whatBtn = document.getElementById('what-to-watch');
 const howBtn = document.getElementById('how-to-watch');
-const exploreBtn = document.getElementById('explore');
 const whoBtn = document.getElementById('who-is-watching');
 
 const content = document.getElementById('content-container');
@@ -10,6 +9,13 @@ whatBtn.addEventListener('click', ()=>{
     //TODO resets the content
     content.innerHTML = '';
     loadMovies();
+
+});
+
+howBtn.addEventListener('click', ()=>{
+
+    content.innerHTML = '';
+    loadLogin();
 
 });
 
@@ -35,7 +41,15 @@ async function loadMovies(){
 
         }        
         
-    }
+}
+
+async function loadLogin(){
+
+    const contentResponse = await(await fetch('content/login.html')).text();
+
+    content.innerHTML = contentResponse;
+
+}
 
 function populateMovies(content, index){
 

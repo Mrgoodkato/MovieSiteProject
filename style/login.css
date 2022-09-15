@@ -1,0 +1,26 @@
+.how-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+    border-radius: 20px;
+    gap: 20px;
+    font-size: smaller;
+    color: var(--second-txt-color);
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg-darker-color);
+    padding: 20px 35px;
+    border-radius: 10px;
+    gap: 10px;
+}
+.login input{
+    height: 30px;
+    border-radius: 10px;
+    background-color: var(--second-txt-color);
+    color: aliceblue;
+    padding: 0 10px;
+}
